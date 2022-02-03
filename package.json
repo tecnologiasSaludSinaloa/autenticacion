@@ -1,0 +1,44 @@
+{
+  "name": "autenticacion",
+  "version": "1.0.0",
+  "description": "API para manejar la autenticacion a los sistemas de los servicios de salud de sinaloa.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tecnologiasSaludSinaloa/autenticacion.git"
+  },
+  "author": "Kevin Andres Tortoledo Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tecnologiasSaludSinaloa/autenticacion/issues"
+  },
+  "homepage": "https://github.com/tecnologiasSaludSinaloa/autenticacion#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.0",
+    "@babel/core": "^7.17.0",
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "@babel/node": "^7.16.8",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "helmet": "^5.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mssql": "^8.0.1",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.15",
+    "swagger-autogen": "^2.18.8",
+    "swagger-ui-express": "^4.3.0"
+  }
+}
